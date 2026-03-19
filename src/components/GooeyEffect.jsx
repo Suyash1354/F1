@@ -272,6 +272,7 @@ export default function GooeyEffect({ imageSrc, hoverSrc }) {
           transform: 'translateX(-50%)',
           width:    '80%',
           height:   '100%',
+          
         }}
       />
 
@@ -290,7 +291,7 @@ export default function GooeyEffect({ imageSrc, hoverSrc }) {
           pointerEvents: 'none',
           transform:     'translate(-50%, -50%) scale(0)',
           opacity:       0,
-          zIndex:        9999,
+          zIndex:        90,
         }}
       />
     </>
