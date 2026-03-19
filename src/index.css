@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: "eurostile";
+    src: url(../public/fonts/eurostile.TTF);
+}
