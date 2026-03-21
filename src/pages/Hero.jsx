@@ -5,8 +5,8 @@ export default function Hero() {
     <section className="Hero w-full h-screen" style={{ cursor: "none" }}>
       <div className="w-full h-screen flex flex-col justify-between items-center overflow-hidden relative">
         <GooeyEffect
-          imageSrc="/images/Helmet-Photoroom.png"
-          hoverSrc="/images/Sanny1-Photoroom.png"
+          imageSrc="/images/Helmet-Photoroom1.png"
+          hoverSrc="/images/Sanny1-Photoroom1.png"
         />
 
         
