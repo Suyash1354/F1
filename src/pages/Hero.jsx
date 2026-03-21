@@ -9,7 +9,7 @@ export default function Hero() {
           hoverSrc="/images/Sanny1-Photoroom.png"
         />
 
-        {/* ── TOP LEFT: Log ID + signal ── */}
+        
         <div
           className="absolute z-50 pointer-events-none"
           style={{ top: 22, left: 28 }}
@@ -36,7 +36,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* ── TOP RIGHT: Session + Track SVG ── */}
+        
         <div
           className="absolute z-50 pointer-events-none"
           style={{ top: 22, right: 28, display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 6 }}
@@ -47,7 +47,7 @@ export default function Hero() {
           }}>
             SESSION: Q3
           </div>
-          {/* Track outline SVG — Nürburgring-style */}
+          
           <svg width="110" height="80" viewBox="0 0 110 80" fill="none" style={{ opacity: 0.75 }}>
             <path
               d="M20 70 L10 70 Q4 70 4 64 L4 50 Q4 38 10 30 L18 20 Q26 10 38 7 L55 5 Q70 3 80 10 L92 20 Q102 30 104 44 L105 56 Q106 67 96 72 L75 76 Q58 79 42 76 L28 72 Z"
@@ -65,12 +65,12 @@ export default function Hero() {
           </svg>
         </div>
 
-        {/* ── BOTTOM LEFT: bars + G-Force ── */}
+        
         <div
           className="absolute z-50 pointer-events-none"
           style={{ bottom: 28, left: 28 }}
         >
-          {/* Bar chart */}
+          
           <div style={{ display: "flex", alignItems: "flex-end", gap: 4, height: 44, marginBottom: 8 }}>
             {[0.45, 0.65, 1, 0.55, 0.8, 0.5, 0.7].map((h, i) => (
               <div key={i} style={{
@@ -89,12 +89,12 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* ── BOTTOM RIGHT: DRS + RPM ── */}
+        
         <div
           className="absolute z-50 pointer-events-none"
           style={{ bottom: 28, right: 28, display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 5 }}
         >
-          {/* Green triangle arrow above DRS */}
+          
           <svg width="18" height="14" viewBox="0 0 18 14" fill="none">
             <polygon points="9,0 18,14 0,14" fill="#22c55e" />
           </svg>
@@ -112,7 +112,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* ── MAIN CONTENT ── */}
+        
         <div className="flex flex-col items-center justify-center w-full h-[40%] gap-16 mt-120">
           <div className="flex Heading absolute top-100 pointer-events-none justify-between items-center gap-[24vw] text-[#D5B05F] text-[4vw] pt-sans-regular">
             <h1>PLAN C</h1>
