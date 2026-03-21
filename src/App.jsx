@@ -29,7 +29,7 @@ const App = () => {
     }, 1)
   })
 
-  // Show message on screens smaller than 1024px (lg breakpoint)
+  
   const isSmallScreen = window.innerWidth < 1024
 
   if (isSmallScreen) {
