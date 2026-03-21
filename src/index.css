@@ -5,6 +5,21 @@
     src: url(../public/fonts/eurostile.TTF);
 }
 
+@font-face {
+  font-family: "DrukCond-Super-Trial";
+  src: url(../public/fonts/DrukCond-Super-Trial.otf);
+}
+
+@font-face {
+  font-family: "DrukXCond-Super-Trial";
+  src: url(../public/fonts/DrukXCond-Super-Trial.otf);
+}
+
+@font-face {
+  font-family: "DxWideground-Regular";
+  src: url(../public//fonts/DxWideground-Regular.otf);
+}
+
 .pt-sans-regular {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
@@ -15,3 +30,11 @@
   font-weight: 700;
   font-style: normal;
 }
+
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+

@@ -263,18 +263,17 @@ export default function GooeyEffect({ imageSrc, hoverSrc }) {
   return (
     <>
       {/* Canvas constrained to 80% width, full height, centred */}
-      <canvas
-        ref={canvasRef}
-        style={{
-          position: 'absolute',
-          top:      0,
-          left:     '50%',
-          transform: 'translateX(-50%)',
-          width:    '80%',
-          height:   '100%',
-          
-        }}
-      />
+     <canvas
+  ref={canvasRef}
+  style={{
+    position: 'absolute',
+    top: 0,
+    left: '50%',
+    transform: 'translateX(-50%)',
+    width: 'min(80%, 95vw)',   // ← changed
+    height: '100%',
+  }}
+/>
 
       {/* Custom cursor dot */}
       <div
